@@ -33,9 +33,9 @@ This is an optional python script that can be used to visualize games through a 
 - It will open that file
 
 # 5. interactive_plot.html
-This file can be opened through a browser like Google Chrome or Firefox, it will look like this:
+This file can be opened with a browser such as Google Chrome or Firefox, and will look like this:
 
 <img src="https://github.com/user-attachments/assets/df4ec494-c085-47a8-b1fb-213ba67f5e0a" width="700" />
 
-What's interesting about this plot is that you can see which game title is on each point by hovering your mouse over it.
+What's interesting about this plot is that you can see which game title is on each dot by hovering your mouse over it.
 
