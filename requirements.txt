@@ -1,0 +1,7 @@
+pandas
+matplotlib
+numpy
+mplcursors
+statsmodels
+requests
+beautifulsoup4
