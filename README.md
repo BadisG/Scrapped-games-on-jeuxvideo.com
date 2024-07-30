@@ -1,8 +1,8 @@
 # Scrapped-games-on-jeuxvideo.com
-Python script that retrieves interesting information about games from jeuxvideo.com + its CSV file
+Retrieves interesting information about games from [jeuxvideo.com](https://www.jeuxvideo.com/tous-les-jeux/)
 
 # 1. games.csv
-This file contains all the games's relevant informations (Title + User ratings + Date of release + Console) from [jeuxvideo.com](https://www.jeuxvideo.com/tous-les-jeux/)
+This file contains all the games's relevant informations (Title + User ratings + Date of release + Console)
 
 It has all the games on this site until 30/07/2024. Here's how it looks like:
 
@@ -18,9 +18,9 @@ pip install -r requirements.txt
 ```
 python scrap.py
 ```
-This is the script used to scrape games and put all the information into a csv.
-When you run it, the console will ask you to choose the starting and ending pages.
-For example, if you want to scrap between the page 13 and 15, it will look like this:
+- This is the script used to scrap the games and put all the information into a CSV file.
+- When you run it, the console will ask you to choose the start and end pages. 
+- For example, if you want to scrape between pages 13 and 15, it will look like this: 
 
 <img src="https://github.com/user-attachments/assets/092f5152-98e7-4c9a-8ac2-3b4bba73c46c" width="500" />
 
