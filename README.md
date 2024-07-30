@@ -28,10 +28,14 @@ For example, if you want to scrap between the page 13 and 15, it will look like 
 ```
 python plot.py
 ```
-This is an optional python script that can be used to visualize games through a scatter plot, it will look like this:
+This is an optional python script that can be used to visualize games through a scatter plot:
+- It will create a file named ```interactive_plot.html```
+- It will open that file
 
-<img src="https://github.com/user-attachments/assets/f0cf704d-9b6c-4621-baea-2b4f335521fc" width="500" />
+# 5. interactive_plot.html
+This file can be opened through a browser like Google Chrome or Firefox, it will look like this:
+
+<img src="https://github.com/user-attachments/assets/df4ec494-c085-47a8-b1fb-213ba67f5e0a" width="700" />
 
 What's interesting about this plot is that you can see which game title is on each point by hovering your mouse over it.
 
-You can for example see the game "Chrono Trigger" on this picture.
