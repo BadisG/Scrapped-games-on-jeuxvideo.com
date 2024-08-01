@@ -4,9 +4,9 @@ Retrieves interesting information about games from [jeuxvideo.com](https://www.j
 # 1. games.csv
 This file contains all the games's relevant informations (Title + User ratings + Date of release + Console)
 
-It has all the games on this site until 30/07/2024. Here's how it looks like:
+It contains all the games on this site until 8/1/2024. Here's what it looks like:
 
-<img src="https://github.com/user-attachments/assets/fece0a0f-c55a-44fd-8fff-f684b909bd09" width="500" />
+<img src="https://github.com/user-attachments/assets/361565d4-c0f3-4863-a71a-26e1dd3ee272" width="500" />
 
 # 2. requirements.txt
 You need to install some special packages to be able to run the python scrips, here's the command:
@@ -14,7 +14,13 @@ You need to install some special packages to be able to run the python scrips, h
 pip install -r requirements.txt
 ```
 
-# 3. scrap.py
+# 3. Install playwright
+You must execute this command before you can use playwrigt on a python script:
+```
+playwright install
+```
+
+# 4. scrap.py
 ```
 python scrap.py
 ```
@@ -24,7 +30,7 @@ python scrap.py
 
 <img src="https://github.com/user-attachments/assets/092f5152-98e7-4c9a-8ac2-3b4bba73c46c" width="500" />
 
-# 4. plot.py
+# 5. plot.py
 ```
 python plot.py
 ```
@@ -32,10 +38,22 @@ This is an optional python script that can be used to visualize games through a 
 - It will create a file named ```interactive_plot.html```
 - It will open that file
 
-# 5. interactive_plot.html
+# 6. interactive_plot.html
 This file can be opened with a browser such as Google Chrome or Firefox, and will look like this:
+
 
 <img src="https://github.com/user-attachments/assets/df4ec494-c085-47a8-b1fb-213ba67f5e0a" width="700" />
 
 What's interesting about this plot is that you can see which game title is on each dot by hovering your mouse over it.
+
+# 7. Limitations
+- **Incomplete date:**
+
+Some games don't have the exact date format [(month/day/year)](https://www.jeuxvideo.com/jeux/super-nintendo-snes/00004222-secret-of-evermore.htm) and only have a (month/year) or a [year](https://www.jeuxvideo.com/jeux/jeu-59021/) format.
+When this happens, the script makes an approximation and will guess a complete date format based on the information available to it. The guess is completely random and therefore has the advantage of producing a uniform distribution.
+
+- **No date at all:**
+
+From page 1740 onwards, all games with User Ranking have no date. There are exactly 1628 of these games, and unfortunately they won't be included in the plot unless we have to retrieve their dates manually....
+
 
