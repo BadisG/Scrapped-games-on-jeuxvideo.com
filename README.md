@@ -2,7 +2,7 @@
 Retrieves interesting information about games from [jeuxvideo.com](https://www.jeuxvideo.com/tous-les-jeux/)
 
 # 1. games.csv
-This file contains all the games's relevant informations (Title + User ratings + Date of release + Console)
+This file contains all the games's relevant informations (Title + User Ratings + Number of Ratings + Date of Release + Console)
 
 It contains all the games on this site until 8/1/2024. Here's what it looks like:
 
