@@ -84,7 +84,6 @@ def convert_date(date_str):
             year = parts[-1]  # Dernier élément est l'année
             return generate_random_date_in_quarter(year, quarter)
 
-
         # Replace “1er” with “1” before dividing
         date_str = date_str.replace('1er', '1')
         parts = date_str.split()
