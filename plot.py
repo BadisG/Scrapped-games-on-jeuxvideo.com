@@ -57,9 +57,9 @@ common_text = "Ratings<br>Count<br>"
 
 unique_ratings = sorted(data['Number of Ratings'].astype(int).unique())
 steps = []
-num = 20  # Augmenter à 30 valeurs initiales
+num = 20  # Seems to be the sweet spot
 
-# Créer des étapes pour les 30 premières valeurs et les valeurs restantes avec un pas plus fin
+# Create steps for the first 20 values and the remaining values with a finer step size
 for i, rating in enumerate(unique_ratings):
     if i < num or (i >= num and i % (len(unique_ratings[num:]) // (len(unique_ratings[:num])/1.5)) == 0) or i == len(unique_ratings) - 1:
         filtered_data = data.loc[data['Number of Ratings'] >= rating]
