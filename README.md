@@ -42,9 +42,10 @@ This is an optional python script that can be used to visualize games through a 
 This file can be opened with a browser such as Google Chrome or Firefox, and will look like this:
 
 
-<img src="https://github.com/user-attachments/assets/df4ec494-c085-47a8-b1fb-213ba67f5e0a" width="700" />
+<img src="https://github.com/user-attachments/assets/e0d9b11e-fe3f-4284-a7b2-e2cd965b69b7" width="700" />
 
-What's interesting about this plot is that you can see which game title is on each dot by hovering your mouse over it.
+- You'll be able to see which game is on each point by hovering your mouse over it.
+- If you feel there are too many points, you can filter a little by using a slider that will activate a threshold based on the number of user ratings.
 
 # 7. Limitations
 - **Incomplete date:**
@@ -54,6 +55,6 @@ When this happens, the script makes an approximation and will guess a complete d
 
 - **No date at all:**
 
-From page 1740 onwards, all games with User Ranking have no date. There are exactly 1628 of these games, and unfortunately they won't be included in the plot unless we have to retrieve their dates manually....
+From page 1740 onwards, all games with User Ranking have no date. There are exactly 1628 of such games and unfortunately they won't be included in the plot unless we have to retrieve their dates manually....
 
 
