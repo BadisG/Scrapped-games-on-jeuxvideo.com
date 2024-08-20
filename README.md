@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 
 # 3. Install playwright
-You must execute this command before you can use playwrigt on a python script:
+You must execute this command before you can use playwright on a python script:
 ```
 playwright install
 ```
