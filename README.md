@@ -9,7 +9,7 @@ It contains all the games on this site until 8/1/2024. Here's what it looks like
 <img src="https://github.com/user-attachments/assets/361565d4-c0f3-4863-a71a-26e1dd3ee272" width="500" />
 
 # 2. requirements.txt
-You need to install some special packages to be able to run the python scrips, here's the command:
+You need to install some special packages to be able to run the python scripts, here's the command:
 ```
 pip install -r requirements.txt
 ```
