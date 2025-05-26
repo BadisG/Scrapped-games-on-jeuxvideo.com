@@ -38,7 +38,7 @@ This is an optional python script that can be used to visualize games through a 
 - It will create a file named ```interactive_plot.html```
 - It will open that file
 
-# 6. interactive_plot.html
+# 6. interactive_plot_JVC.html
 This file can be opened with a browser such as Google Chrome or Firefox, and will look like this:
 
 
